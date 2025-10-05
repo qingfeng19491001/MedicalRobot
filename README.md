@@ -1,7 +1,5 @@
 # RobotSample
 
-## Scroll to view instructions in English
-
 ## 1. 目录结构
 
 
@@ -41,43 +39,5 @@
 机器人系统是基于Android定制开发，所以我们在开发机器人应用的时候需要配置Android开发环境。具体Android开发环境配置，请参考：[Android开发者文档](https://developer.android.com/)。
 
 
----
-
-# English
-
-## 1. Directory Structure
-
-├─app Business code  
-│  ├─robotos  
-│  │  ├─application Application configuration  
-│  │  │	    ├─ ModuleCallback.java Get the underlying callback interface of the CoreService layer  
-│  │  │     ├─ RobotOSApplication.java Current Application entry point, used to connect CoreService and initialize voice  
-│  │  │     ├─ SpeechCallback.java Get the callback interface of the voice SkillApi  
-│  │  ├─fragment Business scenes  
-│  │  │     ├─ BaseFragment.java Basic business scene configuration, loading common components  
-│  │  │     ├─ ChargeFragment.java Charging business module  
-│  │  │     ├─ LeadFragment.java Leading business module  
-│  │  │     ├─ LocationFragment.java Location-related module  
-│  │  │     ├─ MainFragment.java Scene module main entry  
-│  │  │     ├─ NavigationFragment.java Navigation business module  
-│  │  │     ├─ SpeechFragment.java Voice business module  
-│  │  │     ├─ SportFragment.java Basic sports business module  
-│  │  │     ├─ VisionFragment.java Vision business module  
-│  │  │     ├─ ElectricDoorControlFragment.java Electric door service module  
-│  │  ├─ view Common components  
-│  │  │     ├─ BackView.java Back control  
-│  │  │     ├─ ResultView.java Result display control  
-│  │  ├─ LogTools.java Log collection tool  
-│  │  ├─ MainActivity.java App main page entry  
-│  ├─ res Resource directory  
-│  ├─AndroidManifest.xml Manifest file of the App  
-
-## 2. Environment Configuration
-
-Robot application development requires the Android development environment and IDE tools. For detailed configuration, please refer to the following documents.
-To compile and run this sample code directly, you will need JDK 1.8 (Java 8). Please manually click on the app launch from the robot's screen instead of using the debug button in the IDE to ensure that you obtain the necessary API permissions.
-
-### 2.1 Android Development Environment
-
-The robot system is based on customized development on Android, so when developing robot applications, we need to configure the Android development environment. For specific Android development environment configuration, please refer to: [Android Developer Documentation](https://developer.android.com/).
+---please refer to: [Android Developer Documentation](https://developer.android.com/).
 
