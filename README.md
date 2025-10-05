@@ -37,7 +37,3 @@
 ### 2.1 Android开发环境
 
 机器人系统是基于Android定制开发，所以我们在开发机器人应用的时候需要配置Android开发环境。具体Android开发环境配置，请参考：[Android开发者文档](https://developer.android.com/)。
-
-
----please refer to: [Android Developer Documentation](https://developer.android.com/).
-
